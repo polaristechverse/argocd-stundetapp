@@ -42,7 +42,7 @@ microservices:
     minReadySeconds: 60
     port: 5000
     nodePort: 31234
-    replicas: 4
+    replicas: 3
     type: NodePort
     labels: pythonapp
     initContainers:
