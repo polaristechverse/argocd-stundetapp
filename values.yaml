@@ -38,7 +38,7 @@ microservices:
       targetMemoryUtilizationPercentage: 80
 
   - name: studentapp
-    image: "chaitanyamanikumar/mydb:v2"
+    image: "chaitanyamanikumar/postgrestudentapp:v1"
     minReadySeconds: 60
     port: 5000
     nodePort: 31234
